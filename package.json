@@ -1,0 +1,32 @@
+{
+    "name": "continuation-local-variable",
+    "version": "1.0.0",
+    "description": "",
+    "main": "asyncscope.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "docker-compose run continuation-local-variable node_modules/.bin/mocha --timeout=5000 test/*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mpernambuco/continuation-local-variable.git"
+    },
+    "devDependencies": {
+        "axios": "^0.16.2",
+        "mocha": "^3.2.0",
+        "co-mocha": "^1.2.0",
+        "chai": "^3.5.0",
+        "chai-as-promised": "^6.0.0"
+    },
+    "keywords": [
+        "threading",
+        "continuation",
+        "context",
+        "local",
+        "storage",
+        "logging"
+    ],
+    "author": "Marcos Pernambuco Motta <marcos.pernambuco@gmail.com>"
+}

@@ -1,0 +1,8 @@
+version: "2"
+services:
+  continuation-local-variable:
+    image: node:8.9.3
+    volumes:
+      - ${PWD}:/root
+    working_dir: /root
+
