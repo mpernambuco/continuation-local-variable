@@ -35,6 +35,10 @@ Variables scoped by a chain of asynchrounous calls
 
 ```
 
+## Requirements
+
+NodeJS 8.9 or above
+
 ## API  Reference
 
 ### Variable.create(variableName)
