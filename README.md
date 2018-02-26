@@ -15,7 +15,7 @@ Variables scoped by a chain of asynchrounous calls
 
     // User name will be 'Larry' for the chain of async operations
     // starting with `setTimeout`
-    User.set("Larry"); sets
+    User.set("Larry");
     setTimeout(function() {
       print(Variable.find('user').value());  // prints 'Larry'
       // http request
