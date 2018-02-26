@@ -22,7 +22,7 @@ Variables scoped by a chain of asynchrounous calls
       axios.get('http://www.github.com').then(() => {
         print(Variable.find('user').value());  // still prints 'Larry'
       })
-    }, 500);
+    }, 700);
 
     // User name is 'Curly' for the async chain starting with the next `setTimeout`
     User.set("Curly");
