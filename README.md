@@ -1,7 +1,7 @@
 # continuation-local-variable
 Variables scoped by a chain of asynchrounous calls
 
-## How it works
+## Example
 
 ```js
     const Variable = require('continuation-local-variable');
